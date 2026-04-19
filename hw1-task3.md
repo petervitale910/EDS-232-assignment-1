@@ -38,7 +38,7 @@ Scenario `c` is an *regression* scenario in which we care about *predicting* ozo
 What are the advantages and disadvantages of a very flexible (versus a a less flexible) approach for regression? Under what circumstances might a more flexible approach be preferred to a less flexible approach? When might a less flexible approach be preferred?
 
 > **Your Answer:**
-A specific model will adapt to your data, and give you more accurate results to your current data. However, it may not scale as you add data. A more flexible model can handle scaling, but may not account for as much variation in your points. Flexible models risk overfitting, inflexible models risk underfitting. 
+A specific model will adapt to your data, and give you more accurate results to your current data. This may make better predictions, but it may not scale as you add data. A more flexible model can handle scaling (better for inference), but may not account for as much variation in your points. Flexible models risk overfitting, inflexible models risk underfitting. 
 ---
 
 ### Exercise 3 (ISLP exercise 6)
